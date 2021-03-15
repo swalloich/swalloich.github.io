@@ -23,16 +23,22 @@ main p {
    margin-left: 15px;
 }
 
+.logo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.banner-image {
+  width: 100%;
+  height:auto;
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 700px)
 {
   .container {
     grid-template-columns: 20% 60% 20%;
-  }
-  
-  main img {
-    display: block;
-    width: auto;
-    height: auto;
   }
 }
 
@@ -40,12 +46,6 @@ main p {
 {
   .container {
      grid-template-columns: 10% 80% 10%;
-  }
-  
-  main img {
-    display: block;
-    width: auto;
-    height: auto;
   }
 }
 
